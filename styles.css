@@ -1,0 +1,156 @@
+:root{
+  /*primary*/
+--Pale-blue:hsl(225, 100%, 94%);
+--Bright-blue:hsl(245, 75%, 52%);
+  /*Neutral*/
+--Very-pale-blue:hsl(225, 100%, 98%);
+--Desaturated-blue:hsl(224, 23%, 55%);
+--Dark-blue:hsl(223, 47%, 23%);
+  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+button {
+  width: 100%;
+  font-weight: 700;
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.main-container{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--Pale-blue); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/pattern-background-desktop.svg);
+}
+
+.order-card{
+  width: 400px;
+  height: 650px;
+  background-color: white;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+}
+
+.hero{
+  width: 400px;
+  height: 200px;
+  border-radius: 30px 30px 0 0;
+}
+
+.title-info{
+  font-size: 22px;
+  margin-top: 30px;
+  color: var(--Dark-blue);
+  font-weight: 900;
+}
+
+.info-paragraph{
+  margin: 20px 0;
+  line-height: 30px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--Desaturated-blue);
+}
+
+.info-summary{
+  display: flex;
+  background-color: var(--Very-pale-blue);
+  border-radius: 10px;
+  width: 320PX;
+  height: 82px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.annual-plan{
+  text-align: left;
+  margin-right: 60px;
+  margin-left: 0;
+}
+
+.plan{
+  font-weight: 900;
+  color: var(--Dark-blue);
+  font-size: 1rem;
+}
+
+.m-icon{
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.price{
+  font-size: 15px;
+  color: var(--Desaturated-blue);
+}
+
+a{
+  margin-right: 10px;
+  color: var(--Bright-blue);
+  font-weight: 900;
+}
+a:hover{
+  opacity: 70%;
+}
+
+
+
+.payment{
+  text-align: center;
+  justify-content: center;
+  background-color: var(--Bright-blue);
+  border: 0;
+  font-size: 15px;
+  color: white;
+  border-radius: 10px;
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.payment:hover{
+  opacity: 70%;
+}
+
+.cancel{
+ margin-top: 40px;
+ font-size: 15px;
+ color: var(--Desaturated-blue);
+}
+
+.cancel:hover{
+  color: var(--Dark-blue);
+}
+ 
+.attribution{
+  font-size: 20px;
+  text-align: center;
+  background-color: var(--Pale-blue);
+  text-align: center;
+  justify-content: center;
+}
+
+.attribution a{
+  color: hsl(228, 45%, 44%);
+}
+
